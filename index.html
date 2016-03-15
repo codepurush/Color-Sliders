@@ -1,0 +1,34 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Background Color Sliders</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <h1>background-color: <span id="hexCode">#000000</span>;</h1>
+  <section id="wrapper">
+    <div id="container">
+
+      <form>
+        <label for="red" class="red">RED</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="red" name="red" onchange="changeBackground()">
+
+        <label for="green" class="green">GREEN</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="green" name="green" onchange="changeBackground()">
+
+        <label for="blue" class="blue">BLUE</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="blue" name="blue" onchange="changeBackground()">
+
+      </form>
+    </div>
+  </section>
+
+
+
+
+</body>
+
+</html>
